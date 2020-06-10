@@ -1,0 +1,296 @@
+.navbar{
+  height: 70px;
+}
+.btn{
+    background-color: rgb(0, 255, 0);
+    color: white;
+    padding: 5px;
+    border-radius: 0px;
+   
+}
+.navbar{
+    background-color: rgb(224,36,84);
+}
+.second-nav{
+    background-color: white;
+}
+.logo{
+    color: white;
+    border: 2px white solid;
+    padding: 5px;
+    transition: 0.5s;
+}
+.facebook-logo{
+    margin-left: 100px;
+}
+.collapse{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-item{
+    margin: 10px;
+}
+.first{
+    border-top: 2px red solid;
+    border-bottom: 2px red solid;
+    margin-top: 15px;
+}
+.second{
+    transition: 0.2s;
+    margin-top: 15px;
+}
+.third{
+    transition: 0.2s;
+    margin-top: 15px;
+}
+.first-image{
+    width: 25px;
+}
+.fifth{
+    transition: 0.2s;
+    margin-top: 15px;
+}
+.sixth{
+    transition: 0.2s;
+    margin-top: 15px;
+}
+.seventh{
+    transition: 0.2s;
+    margin-top: 15px;
+}
+.secondly:hover .second{
+    border-top: 2px red solid;
+    border-bottom: 2px red solid;
+}.thirdly:hover .third{
+    border-top: 2px red solid;
+    border-bottom: 2px red solid;
+}.fifthly:hover .fifth{
+    border-top: 2px red solid;
+    border-bottom: 2px red solid;
+}.sixthly:hover .sixth{
+    border-top: 2px red solid;
+    border-bottom: 2px red solid;
+}.seventhly:hover .seventh{
+    border-top: 2px red solid;
+    border-bottom: 2px red solid;
+}
+.A{
+    position: relative;
+    cursor: pointer;
+}
+.child-ul{
+    list-style: none;
+    position: absolute;
+    top: 0;
+    left: -45px;
+    width: 100%;
+    padding-top: 70px;
+    display: none;
+}
+.A:hover .child-ul{
+    display: block;
+}
+.B{
+    position: relative;
+    cursor: pointer;
+}
+.child-ul{
+    list-style: none;
+    position: absolute;
+    top: 0;
+    left: -45px;
+    width: 100%;
+    padding-top: 70px;
+    display: none;
+}
+.B:hover .child-ul{
+    display: block;
+}
+.C{
+    position: relative;
+    cursor: pointer;
+}
+.child-ul{
+    list-style: none;
+    position: absolute;
+    top: 0;
+    left: -45px;
+    width: 100%;
+    padding-top: 70px;
+    display: none;
+}
+.C:hover .child-ul{
+    display: block;
+}
+.main-background{
+    background-image: url(https://hotsale.ge/files/offers/aqciebi/silamaze/live%20dent/interieri/86322_image_3_tti.jpg);
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header{
+    font-family: 'Balsamiq Sans', cursive;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.first-text{
+    font-size: 50px;
+    color: white;
+}
+.second-text{
+    font-size: 25px;
+    color: white;
+}
+.first-button{
+    color: white;
+    background-color: rgb(224,36,84);
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    transition: 0.2s;
+
+    animation-name: read-button;
+    animation-duration: 2s;
+}
+.center .button-div:hover .first-button{
+    background-color: rgb(99, 160, 7);
+}
+.card{
+    position: absolute;
+    bottom: -100px;
+    width: 400px;
+}
+.first-card{
+    background-color: green;
+    color: white;
+    border-radius: 0px;
+    height: 200px;
+}
+.second-card{
+    background-color: rgb(35,54,69);
+    color: white;
+    border-radius: 0px;
+    height: 200px;
+}
+.third-card{
+    background-color: red;
+    color: white;
+    border-radius: 0px;
+    height: 200px;
+     width:300px ;
+}
+.card-text{
+    margin-top: 40px;
+}
+.card-title{
+    font-size: 25px;
+}
+.card-list{
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+}
+.group-head{
+    margin-top: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.second-header{
+    margin-top: 100px;
+}
+.sect1{
+    display: flex;
+}
+.left-side{
+    margin: 50px;
+    text-align: left;
+    width: 50%;
+    margin-left: 100px;
+}
+.first-text-left{
+    margin-top: 20px;
+    color: grey;
+}
+.second-text-left{
+    margin-top: 20px;
+    color: darkgrey;
+}
+.read-more-two:hover{
+    background-color: rgb(99, 160, 7);
+}
+.main-button-group{
+    display: flex;
+    flex-wrap: wrap;
+}
+.another-buttons {
+    height: 50px;
+    width: 200px;
+    margin: 10px;
+    background-color: white;
+    border: none;
+    border-bottom: 1px solid rgb(224,36,84);
+    text-align: left;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.another-buttons:hover{
+    background-color: rgb(224,36,84);
+}
+.second-button{
+    color: white;
+    background-color: rgb(224,36,84);
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    transition: 0.2s;
+}
+.second-header .read-button-two:hover .second-button{
+    background-color: rgb(99, 160, 7);
+}
+.right-side{
+    width: 50%;
+    margin-left: 100px;
+    margin-right: 0;
+}
+.nurse{
+    width: 400px;
+    height: 600px;
+    object-fit: cover;
+}
+.container{
+    position: absolute;
+    bottom: -10px;
+}
+.second-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.email-thing{
+    height: 50px;
+    width: 200px;
+}
+.read-more-two{
+    height: 50px;
+    width: 200px;
+    color: white;
+    background-color: rgb(35,54,69);
+    border: none;
+}
